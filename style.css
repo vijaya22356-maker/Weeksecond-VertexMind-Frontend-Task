@@ -38,3 +38,16 @@ footer {
         padding: 15px;
     }
 }
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111;
+}
+
+.dark-mode a {
+    color: white;
+}

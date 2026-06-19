@@ -14,6 +14,7 @@
         <a href="#">Services</a>
         <a href="#">Contact</a>
     </nav>
+    <button id="darkModeBtn">Dark Mode</button>
 </header>
 <section class="hero">
     <h2>Build Amazing Digital Experiences</h2>
@@ -39,8 +40,37 @@
     </div>
 
 </section>
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label>Message:</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Submit</button>
+
+        <p id="formMessage"></p>
+
+    </form>
+</section>
+<section class="api-data">
+    <h2>Latest Posts</h2>
+
+    <div id="posts">
+        Loading...
+    </div>
+
+</section>
 <footer>
     <p>© 2026 VertexMind. All rights reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
